@@ -1059,9 +1059,10 @@ section {
 }
 
 #footer .footer-top .footer-info p {
-  font-size: 16px;
+  font-size: 15px;
   line-height: 24px;
   margin-bottom: 0;
+  font-weight: 600;
   font-family: "Raleway", sans-serif;
 }
 #footer .footer-top .footer-info p a{
