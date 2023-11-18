@@ -1,14 +1,4 @@
-/**
-* Template Name: Day
-* Updated: Sep 18 2023 with Bootstrap v5.3.2
-* Template URL: https://bootstrapmade.com/day-multipurpose-html-template-for-free/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 
-/*--------------------------------------------------------------
-# General
---------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
@@ -466,6 +456,7 @@ h6 {
   color: #eee;
   margin-bottom: 30px;
   font-size: 24px;
+  font-weight: 600;
 }
 
 #hero .btn-get-started {
@@ -1147,6 +1138,39 @@ section {
   color: #eb4444;
 }
 
+#footer .footer-top .footer-newsletter form {
+  margin-top: 30px;
+  background: #fff;
+  padding: 6px 10px;
+  position: relative;
+  border-radius: 4;
+}
+
+#footer .footer-top .footer-newsletter form input[type=email] {
+  border: 0;
+  padding: 4px;
+  width: calc(100% - 110px);
+}
+
+#footer .footer-top .footer-newsletter form input[type=submit] {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  border: 0;
+  background: none;
+  font-size: 16px;
+  padding: 0 20px;
+  background: #cc1616;
+  color: #fff;
+  transition: 0.3s;
+  border-radius: 4;
+}
+
+#footer .footer-top .footer-newsletter form input[type=submit]:hover {
+  background: #e82d2d;
+}
+
 
 #footer .copyright {
   border-top: 1px solid #262626;
@@ -1164,6 +1188,7 @@ section {
 #footer .credits a {
   color: #e82d2d;
   font-size: 15px;
+  font-weight: 700;
 }
 #footer .credits a:hover{
   color: #3095cf;
@@ -1173,3 +1198,4 @@ section {
     margin: -20px 0 30px 0;
   }
 }
+
